@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class NavItems extends Component {
+class Navitems extends Component {
     render() {
         return (
             <li id={this.props.item}>
@@ -11,4 +11,4 @@ class NavItems extends Component {
     }
 }
 
-export default NavItems
+export default Navitems
