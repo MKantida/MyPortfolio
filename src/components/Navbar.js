@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavItems from "NavItems";
+import Navitems from "./Navitems";
 
 class Navbar extends Component {
     constructor(props) {
@@ -13,13 +13,15 @@ class Navbar extends Component {
         return (
             <nav>
                 <ul>
-                    <NavItems item="Home" tolink="/"></NavItems>
-                    <NavItems item="About" tolink="/about"></NavItems>
-                    <NavItems item="Education" tolink="/education"></NavItems>
-                    <NavItems item="Skills" tolink="/skills"></NavItems>
-                    <NavItems item="Contact" tolink="/contact"></NavItems>
+                    <Navitems item="Home" tolink="/"></Navitems>
+                    <Navitems item="About" tolink="/about"></Navitems>
+                    <Navitems item="Education" tolink="/education"></Navitems>
+                    <Navitems item="Skills" tolink="/skills"></Navitems>
+                    <Navitems item="Contact" tolink="/contact"></Navitems>
                 </ul>
             </nav>
         )
     }
 }
+
+export default Navbar
