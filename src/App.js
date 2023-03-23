@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Route exact path="/">
-          <Home />
+        <Home />
         </Route>
       </div>
     </Router>
