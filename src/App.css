@@ -38,7 +38,7 @@ nav ul li a {
 
 .condiv {
   padding: 100px;
-  background-color: #f4f5f9;
+  background-color: #a1a1a1;
   flex: var(--condiv-flex);
 }
 
