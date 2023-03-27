@@ -37,8 +37,11 @@ nav ul li a {
 }
 
 .condiv {
-  padding: 100px;
-  background-color: #a1a1a1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px;
+  background-color: #b3b3b3;
   flex: var(--condiv-flex);
 }
 
@@ -56,15 +59,16 @@ nav ul li a {
 }
 
 .social {
-  position: absolute;
-  margin-top: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
   bottom: 60px;
 }
 .social i {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #fa7000;
 }
 .social i:hover {
   color: #333;
@@ -76,6 +80,7 @@ nav ul li a {
 }
 
 .about {
+  align-items: center;
   text-align: center;
 }
 .subtopic {

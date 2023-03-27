@@ -6,8 +6,9 @@ class Education extends Component {
         return(
             <div className="condiv">
                 <h1 className="subtopic">My Education</h1>
-                <Widecard title="MilerDev Software Engineering" where="Miler University" from="2016" to="Present" />
-                <Widecard title="MilerDev" where="Miler High School" from="2011" to="2016" />
+                <Widecard title="มหาวิทยาลัยสวนดุสิต" where="คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์" from="2016" to="Present" />
+                <Widecard title="โรงเรียนกุนนทีรุทธารามวิทยาคม" where="สาย วิทศาสตร์-คณิตศาสตร์" from="2011" to="2016" />
+                
             </div>
         );
     }
