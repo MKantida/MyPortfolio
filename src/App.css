@@ -1,6 +1,6 @@
 :root {
-  --sidebar-floex: 1.5;
-  --condiv-floex: 6;
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
   --fontsize-p: 1.2rem;
   --fontsize-nav: 1.6rem;
   --typing-font: 3rem;
@@ -14,8 +14,8 @@
 
 .App {
   display: flex;
-  width: auto;
-  height: 100vw;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 nav {
@@ -37,12 +37,9 @@ nav ul li a {
 }
 
 .condiv {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 200px;
-  background-color: #b3b3b3;
-  flex: var(--condiv-flex);
+  padding: 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);;
 }
 
 .home {
@@ -59,16 +56,15 @@ nav ul li a {
 }
 
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
   margin-top: 20px;
+  display: flex;
   bottom: 60px;
 }
 .social i {
   padding-right: 30px;
   font-size: 25px;
-  color: #fa7000;
+  color: #9a9b9c;
 }
 .social i:hover {
   color: #333;
@@ -80,7 +76,6 @@ nav ul li a {
 }
 
 .about {
-  align-items: center;
   text-align: center;
 }
 .subtopic {
